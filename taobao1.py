@@ -1,6 +1,3 @@
-# taobao_ui_optimized.py
-# UI 优化版 - 核心逻辑与原版保持一致
-
 import tkinter as tk
 from tkinter import ttk, scrolledtext, messagebox, filedialog
 import threading
@@ -579,4 +576,5 @@ class TaobaoSniper:
 
 if __name__ == "__main__":
     app = TaobaoSniper()
+
     app.root.mainloop()
